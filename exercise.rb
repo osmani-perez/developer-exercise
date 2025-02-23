@@ -33,7 +33,6 @@ class Exercise
   # and the sum of its even numbers is (2 + 8) = 10
   def self.even_fibonacci(nth)
     self.calcFibonacci(nth)
-    puts(@@computedFibonacci)
 
     sum = 0
     @@computedFibonacci.each do |key, value|
